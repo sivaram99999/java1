@@ -1,0 +1,22 @@
+package Lab;
+
+import java.util.Scanner;
+
+public class for_loops {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter n");
+		int n = sc.nextInt();
+		
+		
+		for (int i =n;i < 10; i+= 2) {
+			System.out.println(i);
+			
+		}
+
+	}
+
+}
+
+
